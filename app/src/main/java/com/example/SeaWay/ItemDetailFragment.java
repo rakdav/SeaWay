@@ -1,8 +1,10 @@
-package com.example.myapplication;
+package com.example.SeaWay;
 
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.example.SeaWay.dummy.DummyContent;
+import com.example.myapplication.R;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,8 +12,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
-
-import com.example.myapplication.dummy.DummyContent;
 
 /**
  * A fragment representing a single Item detail screen.

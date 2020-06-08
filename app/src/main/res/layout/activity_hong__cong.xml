@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Hong_Cong">
+    tools:context="com.example.SeaWay.Hong_Cong">
 
 </android.support.constraint.ConstraintLayout>

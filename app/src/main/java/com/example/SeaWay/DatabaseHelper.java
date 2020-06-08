@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.SeaWay;
 
 import android.content.Context;
 import android.database.Cursor;

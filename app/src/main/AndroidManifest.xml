@@ -18,17 +18,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ItemListActivity"
+            android:name="com.example.SeaWay.ItemListActivity"
             android:label="@string/title_item_list"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".ItemDetailActivity"
+            android:name="com.example.SeaWay.ItemDetailActivity"
             android:label="@string/title_item_detail"
-            android:parentActivityName=".ItemListActivity"
+            android:parentActivityName="com.example.SeaWay.ItemListActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.myapplication.ItemListActivity" />
+                android:value="com.example.myapplication.com.example.SeaWay.ItemListActivity" />
         </activity>
         <activity
             android:name=".ListListActivity"
@@ -44,7 +44,7 @@
                 android:value="com.example.myapplication.ListListActivity" />
         </activity>
         <activity
-            android:name=".Main2Activity"
+            android:name="com.example.SeaWay.Main2Activity"
             android:configChanges="keyboardHidden|orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,7 +52,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".Hong_Cong" />
+        <activity android:name="com.example.SeaWay.Hong_Cong" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -66,12 +66,12 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Carta"
+            android:name="com.example.SeaWay.Carta"
             android:label="@string/title_activity_carta" />
-        <activity android:name=".Main3Activity" />
-        <activity android:name=".From" />
+        <activity android:name="com.example.SeaWay.Main3Activity" />
+        <activity android:name="com.example.SeaWay.From" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.SeaWay.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

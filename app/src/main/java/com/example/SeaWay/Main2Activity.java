@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.SeaWay;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,9 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.myapplication.dummy.DummyContent;
+import com.example.myapplication.R;
 
 public class Main2Activity extends AppCompatActivity implements View.OnClickListener {
     private int orientation;

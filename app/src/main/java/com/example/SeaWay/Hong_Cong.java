@@ -1,9 +1,11 @@
-package com.example.myapplication;
+package com.example.SeaWay;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.myapplication.R;
 
 public class Hong_Cong extends AppCompatActivity {
 

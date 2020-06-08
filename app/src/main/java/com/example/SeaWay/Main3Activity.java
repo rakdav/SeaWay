@@ -1,7 +1,6 @@
-package com.example.myapplication;
+package com.example.SeaWay;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.Navigator;
 
 import android.database.Cursor;
 import android.database.SQLException;
@@ -11,8 +10,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.myapplication.R;
+
 import java.io.IOException;
-import java.util.jar.Attributes;
 
 public class Main3Activity extends AppCompatActivity {
     Button button;

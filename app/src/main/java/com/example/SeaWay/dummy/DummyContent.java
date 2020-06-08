@@ -1,4 +1,4 @@
-package com.example.myapplication.dummy;
+package com.example.SeaWay.dummy;
 
 import java.util.ArrayList;
 import java.util.HashMap;
