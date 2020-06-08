@@ -9,12 +9,14 @@ public class MapCoordinates
     private String type;
     private List<Coordinates> coordinates;
     private List<Port> ports;
+    private List<Route> routes;
 
-    public MapCoordinates(String title, String type, List<Coordinates> coordinates, List<Port> ports) {
+    public MapCoordinates(String title, String type, List<Coordinates> coordinates, List<Port> ports, List<Route> routes) {
         this.title = title;
         this.type = type;
         this.coordinates = coordinates;
         this.ports = ports;
+        this.routes = routes;
     }
 
     public String getTitle() {
@@ -47,5 +49,13 @@ public class MapCoordinates
 
     public void setPorts(List<Port> ports) {
         this.ports = ports;
+    }
+
+    public List<Route> getRoutes() {
+        return routes;
+    }
+
+    public void setRoutes(List<Route> routes) {
+        this.routes = routes;
     }
 }
